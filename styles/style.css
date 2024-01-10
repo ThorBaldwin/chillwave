@@ -1,0 +1,518 @@
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+body {
+  --text-size-80: 0.563rem;
+  --text-size-90: 0.75rem;
+  --text-size-100: 1rem;
+  --text-size-200: 1.333rem;
+  --text-size-300: 1.777rem;
+  --text-size-400: 2.369rem;
+  --text-size-500: 3.157rem;
+  --text-size-600: 4.209rem;
+  --text-size-700: 5.61rem;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #1e3a8a;
+  background: #bfdbfe;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+}
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+small {
+  font-size: var(--text-size-90);
+}
+h6,
+.h6 {
+  font-size: var(--text-size-200);
+}
+h5,
+.h5 {
+  font-size: var(--text-size-300);
+}
+h4,
+.h4 {
+  font-size: var(--text-size-400);
+}
+h3,
+.h3 {
+  font-size: var(--text-size-500);
+}
+h2,
+.h2 {
+  font-size: var(--text-size-600);
+}
+h1,
+.h1 {
+  font-size: var(--text-size-700);
+}
+.text-size-80 {
+  font-size: var(--text-size-80);
+}
+.text-size-90 {
+  font-size: var(--text-size-90);
+}
+.text-size-100 {
+  font-size: var(--text-size-100);
+}
+.text-size-200 {
+  font-size: var(--text-size-200);
+}
+.text-size-300 {
+  font-size: var(--text-size-300);
+}
+.text-size-400 {
+  font-size: var(--text-size-400);
+}
+.text-size-500 {
+  font-size: var(--text-size-500);
+}
+.text-size-600 {
+  font-size: var(--text-size-600);
+}
+.text-size-700 {
+  font-size: var(--text-size-700);
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.contact button {
+  background: none;
+  border: #1e40af solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 26px;
+  color: inherit;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 30px;
+  gap: 1.5em;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+
+.hero-header {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.hero-header h1 {
+  font-size: 260px;
+}
+
+.hero-detail {
+  line-height: 1.2;
+  margin: -30px 40px;
+}
+
+.hero-detail p {
+  font-size: 46px;
+  font-weight: 301;
+  font-style: italic;
+}
+
+.hero-pic {
+  height: 110vh;
+  max-width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+figcaption {
+  width: 100%;
+  font-size: 26px;
+}
+
+.hero-pic a {
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.gallery {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.left-pic {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.left-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.left-pic a {
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.right-pic {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.right-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.right-pic a {
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.about-us-container {
+  width: 93%;
+  height: 120vh;
+  display: flex;
+  margin: auto;
+  background-color: #fcd34d;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+.about-left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-right-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-header {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.about-us-header h2 {
+  font-size: 130px;
+  color: #262626;
+}
+
+.about-us-details {
+  line-height: 1.2;
+  margin: 0 40px;
+}
+
+.about-us-details p {
+  font-size: 26px;
+  color: #262626;
+}
+
+.about-us-button button {
+  margin-bottom: 30px;
+  margin-left: 40px;
+  background: none;
+  border: #262626 solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 26px;
+  color: inherit;
+  padding: 15px 40px;
+  font-weight: 700;
+}
+
+.about-us-button a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 20px;
+}
+
+.about-right-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-right-container img {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.quote-container {
+  width: 93%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: #f472b6;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.quote-header-container {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.quote-header-container h2 {
+  font-size: 130px;
+  color: #fafafa;
+}
+
+.quote-details-container {
+  line-height: 1.2;
+  margin: 0 50px;
+  font-weight: 800;
+}
+
+.quote-details-container p {
+  font-size: 46px;
+  color: #fafafa;
+}
+
+.quote-details-name-container {
+  line-height: 1.2;
+  margin: 0 50px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.quote-details-name-container p {
+  font-size: 26px;
+  color: #fafafa;
+}
+
+.footer-container {
+  width: 93%;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: #1e3a8a;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: #fafafa;
+  margin-bottom: 35px;
+}
+
+.footer-header {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-header h1 {
+  font-size: 240px;
+  margin-top: -15px;
+}
+
+.footer-second-container {
+  display: flex;
+  height: 100%;
+}
+
+.footer-left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.sub-menu-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.sub-menu-left h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-left a {
+  color: #fafafa;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.sub-menu-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.sub-menu-right h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-right a {
+  color: #fafafa;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.footer-right-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer-right-container h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.footer-right-container p {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 0.5em;
+}
+
+label {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+input {
+  width: 90%;
+  height: 70px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+}
+
+form button {
+  background: none;
+  border: #fafafa solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  color: inherit;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
