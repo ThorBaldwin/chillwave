@@ -103,6 +103,14 @@ h1,
   font-size: var(--text-size-700);
 }
 
+#navbar {
+  opacity: 0;
+}
+
+#hero {
+  opacity: 0;
+}
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -894,9 +902,324 @@ textarea {
   font-family: "Satoshi", sans-serif;
 }
 
-form button {
+.footer-right-container-instructor form button {
   background: none;
   border: #1e3a8a solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  color: inherit;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
+/* ABOUT SECTION*/
+#about-body {
+  background-color: #ef4444;
+  color: #f4f1e0;
+}
+
+.contact-about {
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.contact-about button {
+  background: none;
+  border: #d9f99d solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 26px;
+  color: #d9f99d;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.about-page-container {
+  width: 93%;
+  height: 120vh;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  color: #f4f1e0;
+}
+
+.about-page-left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about-page-right-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-page-us-header {
+  font-weight: 800;
+}
+
+.about-page-us-header h2 {
+  font-size: 130px;
+}
+
+.about-page-us-details {
+  line-height: 1.2;
+}
+
+.about-page-us-details p {
+  font-size: 26px;
+}
+
+.about-page-us-button button {
+  margin-bottom: 30px;
+  background: none;
+  border: #f4f1e0 solid 2px;
+  border-radius: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 26px;
+  color: inherit;
+  padding: 15px 40px;
+  font-weight: 700;
+}
+
+.about-page-us-button a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.about-page-right-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-right-container img {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.about-card-5-container {
+  width: 95%;
+  min-height: 95vh;
+  display: flex;
+  margin: auto;
+  background-color: #a3e635;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.about-card-1-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-card-1-left-header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  margin: 35px 30px 0 20px;
+}
+
+.about-card-1-left h2 {
+  font-size: 110px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.about-card-1-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-card-1-right-header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  margin: 35px 30px 30px 0;
+}
+
+.about-card-1-right-header h4 {
+  font-size: 46px;
+  font-weight: 800;
+  margin: 45px 60px 0 0;
+}
+
+.about-card-1-right-menu {
+  width: 92%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.card-1-right-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  font-size: 26px;
+  border-top: #fafafa solid 2px;
+}
+
+.card-1-right-menu li .symbol {
+  font-size: 56px;
+}
+
+.about-card-1-right-menu p {
+  display: none;
+  margin: 0 20px 90px 20px;
+  font-size: 26px;
+}
+
+.about-card-1-right-menu p.open {
+  display: block;
+}
+
+.footer-container-about {
+  width: 93%;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: #262626;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: #f4f1e0;
+  margin-bottom: 35px;
+}
+
+.footer-header-about {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-header-about h1 {
+  font-size: 240px;
+  margin-top: -15px;
+}
+
+.footer-second-container-about {
+  display: flex;
+  height: 100%;
+}
+
+.footer-left-container-about {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.sub-menu-left-about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.sub-menu-left-about h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-left-about a {
+  color: #f4f1e0;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.sub-menu-right-about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.sub-menu-right-about h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-right-about a {
+  color: #f4f1e0;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.footer-right-container-about {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer-right-container-about h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.footer-right-container-about p {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 0.5em;
+}
+
+label {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+input {
+  width: 90%;
+  height: 70px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+}
+
+.footer-right-container-about form button {
+  background: none;
+  border: #f4f1e0 solid 2px;
   border-radius: 35px;
   cursor: pointer;
   outline: none;

@@ -30,3 +30,21 @@ document.querySelectorAll(".card-1-right-menu li").forEach((li) => {
     }
   });
 });
+
+gsap.to("#navbar", {
+  opacity: 1,
+  duration: 0.5, // Adjust based on your desired animation duration
+  ease: "power4.in", // Adjust the easing function as needed
+  onComplete: function () {
+    // Animation complete, you can add additional actions here if needed
+  },
+});
+
+gsap.to("#hero", {
+  opacity: 1,
+  duration: 1, // Adjust based on your desired animation duration
+  ease: "power4.in", // Adjust the easing function as needed
+  onComplete: function () {
+    // Animation complete, you can add additional actions here if needed
+  },
+});
