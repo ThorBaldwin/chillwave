@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/snowboarding-thumbnail-jpg.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChillWave&copy;</title>
+    <title>ChillWave Boarding</title>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,301,300,901,400&f[]=clash-display@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 </head>
 
 <body id="instructor-body">
-    <div class="navbar-instructor">
+    <div class="navbar-instructor" id="instructor-navbar">
         <div class="logo-instructor">
             <a href="index.html">ChillWave Boarding</a>
         </div>
@@ -24,7 +27,7 @@
             <button><a href="contact.html">Contact Us</a></button>
         </div>
     </div>
-    <div class="services-header-instructor">
+    <div class="services-header-instructor" id="instructor-header">
         <div class="services-left-header-instructor">
             <h1>Instructors</h1>
         </div>
@@ -51,7 +54,7 @@
     <div class="services-header-pic" id="russell">
         <img src="assets/oldguy-snowboarding.jpg" alt="">
     </div>
-    <div class="instructor-details-container">
+    <div class="instructor-details-container" id="russell-bio">
         <div class="instructor-details-bio">
             <h4>Introducting <span>Russell</span>, a legendary figure in the snowboarding world. At 55, this past
                 Olympic snowboarder brings
@@ -68,7 +71,7 @@
         <img src="assets/girl-gazing.jpg" alt="">
     </div>
     <div class="instructor-details-container">
-        <div class="instructor-details-bio">
+        <div class="instructor-details-bio" id="emma-bio">
             <h4>Allow us to present <span>Emma</span>, a 22-year-old snowboarding sensation with a passion for freestyle
                 and teaching. With a decade
                 of experience
@@ -123,6 +126,7 @@
             </div>
         </div>
     </div>
+    <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>

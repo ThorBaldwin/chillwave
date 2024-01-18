@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/snowboarding-thumbnail-jpg.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChillWave&copy;</title>
+    <title>ChillWave Boarding</title>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,301,300,901,400&f[]=clash-display@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navbar" id="contact-navbar">
         <div class="logo">
             <a href="index.html">ChillWave Boarding</a>
         </div>
@@ -24,7 +27,68 @@
             <button><a href="/">Contact Us</a></button>
         </div>
     </div>
-    <h1>UNDER CONSTRUCTION</h1>
+    <div class="connect-header" id="contact-header">
+        <div class="connect-left-header">
+            <h1>Connect</h1>
+        </div>
+        <div class="connect-right-header">
+            <p>We'd love to hear from you. Whether you have questions, ideas, or are ready to get started on your
+                interior design
+                journey, don't hesitate to reach out.</p>
+        </div>
+    </div>
+    <div class="contact-card-container" id="contact-card">
+        <div class="contact-card-inside-container">
+            <div class="name-container">
+                <div class="first-name">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="last-name-container">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+            </div>
+            <div>
+                <label for="email">Email *</label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="message">Message *</label>
+            </div>
+            <div>
+                <textarea id="message" name="message" rows="3" class="contact-card-text"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="footer-left-container-contact">
+        <div class="sub-menu-left-contact">
+            <h4>Menu</h4>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="sub-menu-right-contact">
+            <h4>Social</h4>
+            <a href="/">Instagram</a>
+            <a href="/">Facebook</a>
+            <a href="/">LinkedIn</a>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div>
+            <p>ChillWave Boarding&copy;2024</p>
+        </div>
+        <div>
+            <p>Coded with ❄️</p>
+        </div>
+        <div>
+            <p><a href="index.html">Back to 🏠</a></p>
+        </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>

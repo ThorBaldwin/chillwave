@@ -103,11 +103,22 @@ h1,
   font-size: var(--text-size-700);
 }
 
-#navbar {
+#navbar,
+#services-navbar,
+#about-navbar,
+#instructor-navbar,
+#contact-navbar {
   opacity: 0;
 }
 
-#hero {
+#hero,
+#services-header,
+#services-header-pic,
+#about-header,
+#instructor-header,
+#brandon,
+#contact-header,
+#contact-card {
   opacity: 0;
 }
 
@@ -179,7 +190,6 @@ h1,
 .hero-detail p {
   font-size: 46px;
   font-weight: 301;
-  font-style: italic;
 }
 
 .hero-pic {
@@ -1228,4 +1238,132 @@ textarea {
   margin-top: 15px;
   padding: 12px 20px;
   font-weight: 700;
+}
+
+.connect-header {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+}
+
+.connect-left-header {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.connect-left-header h1 {
+  font-size: 130px;
+  font-weight: 800;
+}
+
+.connect-right-header {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 30px 0 20px;
+  line-height: 2em;
+}
+
+.connect-right-header p {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.contact-card-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  color: #bfdbfe;
+  border-radius: 20px;
+  background-color: #1e3a8a;
+  margin-bottom: 35px;
+  margin-top: 40px;
+}
+
+.contact-card-inside-container {
+  margin: 20px 45px;
+  width: 100%;
+}
+
+.name-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+.first-name {
+  width: 47%;
+}
+
+.last-name-container {
+  width: 47%;
+}
+
+.contact-card-text {
+  margin-bottom: 90px;
+}
+
+.footer-left-container-contact {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  margin: 40px 0 0 120px;
+}
+
+.sub-menu-left-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-menu-left-contact h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-left-contact a {
+  color: #1e3a8a;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.sub-menu-right-contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.sub-menu-right-contact h4 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-menu-right-contact a {
+  color: #1e3a8a;
+  font-size: 26px;
+  text-decoration-thickness: 0.5px;
+  font-weight: 700;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 5%;
+  margin: auto;
+}
+
+.bottom-footer p {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.bottom-footer a {
+  text-decoration: none;
 }

@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/snowboarding-thumbnail-jpg.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChillWave&copy;</title>
+    <title>ChillWave Boarding</title>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,301,300,901,400&f[]=clash-display@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navbar" id="services-navbar">
         <div class="logo">
             <a href="index.html">ChillWave Boarding</a>
         </div>
@@ -24,7 +27,7 @@
             <button><a href="contact.html">Contact Us</a></button>
         </div>
     </div>
-    <div class="services-header">
+    <div class="services-header" id="services-header">
         <div class="services-left-header">
             <h1>Services</h1>
         </div>
@@ -34,7 +37,7 @@
                 shine.</p>
         </div>
     </div>
-    <div class="services-header-pic">
+    <div class="services-header-pic" id="services-header-pic">
         <img src="assets/girl-smile-lookback.jpg" alt="">
     </div>
     <div class="card-4-container">
@@ -163,10 +166,6 @@
             </div>
         </div>
     </div>
-
-
-
-
     <script src="src/main.js"></script>
 </body>
 
