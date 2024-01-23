@@ -17,9 +17,7 @@ body {
   line-height: 1.6;
   color: #1e3a8a;
   background: #bfdbfe;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 a {
@@ -128,7 +126,7 @@ h1,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
 }
 
@@ -142,15 +140,15 @@ h1,
   border-radius: 35px;
   cursor: pointer;
   outline: none;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: inherit;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   font-weight: 700;
 }
 
 .logo {
-  margin-top: 20px;
-  margin-left: 35px;
+  margin-top: 1.25rem;
+  margin-left: 2.188rem;
 }
 
 .nav-list {
@@ -170,6 +168,8 @@ h1,
   justify-content: center;
   align-items: center;
   height: 110vh;
+  width: 100%;
+  margin: auto;
 }
 
 .hero-header {
@@ -179,7 +179,7 @@ h1,
 }
 
 .hero-header h1 {
-  font-size: 260px;
+  font-size: 16.25rem;
 }
 
 .hero-detail {
@@ -349,7 +349,8 @@ figcaption {
 .about-right-container img {
   display: flex;
   justify-content: center;
-  height: 90%;
+  max-height: 90%;
+  max-width: 90%;
   border-radius: 20px;
 }
 
@@ -811,7 +812,7 @@ form button {
 }
 
 .footer-header-instructor h1 {
-  font-size: 240px;
+  font-size: 16.25rem;
   margin-top: -15px;
 }
 
@@ -1366,4 +1367,200 @@ textarea {
 
 .bottom-footer a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1340px) {
+  .hero-header h1 {
+    font-size: 15.25rem;
+  }
+
+  .about-us-header h2 {
+    font-size: 6.125rem;
+  }
+
+  .footer-header h1 {
+    font-size: 14.25rem;
+  }
+}
+/*MOBILE SCREEEEEEEEEEENS*/
+
+@media screen and (max-width: 481px) {
+  .navbar {
+    display: block;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-left: 1.18rem;
+  }
+
+  .nav-list {
+    visibility: hidden;
+  }
+  .contact {
+    visibility: hidden;
+  }
+
+  .hero-container {
+    height: auto;
+  }
+
+  .hero-header {
+    margin-top: auto;
+  }
+
+  .hero-header h1 {
+    font-size: 4.75rem;
+  }
+
+  .hero-detail {
+    margin-left: 7%;
+  }
+
+  .hero-detail p {
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+
+  .about-us-details {
+    margin: 0 9%;
+  }
+
+  .hero-pic a {
+    margin: auto;
+  }
+
+  .hero-pic {
+    height: 70vh;
+  }
+
+  .gallery {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .left-pic {
+    width: auto;
+  }
+
+  .left-pic a {
+    margin: auto;
+  }
+
+  .right-pic {
+    width: auto;
+  }
+
+  .right-pic a {
+    margin: auto;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .about-us-header {
+    margin-left: 0;
+  }
+
+  .about-left-container {
+    width: 100%;
+  }
+
+  .about-us-header h2 {
+    font-size: 4rem;
+  }
+
+  .about-us-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-us-button button {
+    margin: 5% 0;
+  }
+
+  .about-right-container {
+    width: 100%;
+  }
+
+  .about-right-container img {
+    margin: 9% 0;
+  }
+
+  .quote-container {
+    height: 100%;
+  }
+
+  .quote-header-container {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .quote-header-container h2 {
+    font-size: 3.5rem;
+  }
+
+  .quote-details-container {
+    margin: 0 7%;
+  }
+
+  .quote-details-container p {
+    font-size: 2rem;
+  }
+
+  .quote-details-name-container {
+    margin-left: 7%;
+    margin-bottom: 12%;
+  }
+
+  .footer-container {
+    height: 100%;
+  }
+
+  .footer-header h1 {
+    font-size: 4rem;
+    margin-top: 5%;
+  }
+
+  .footer-second-container {
+    flex-direction: column;
+  }
+
+  .footer-right-container {
+    width: 100%;
+  }
+
+  .footer-left-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sub-menu-left {
+    margin-left: 9%;
+  }
+
+  .sub-menu-right {
+    margin-left: 9%;
+  }
+
+  .footer-right-container h4 {
+    margin-left: 9%;
+  }
+
+  .footer-right-container p {
+    line-height: normal;
+    margin-left: 9%;
+    font-size: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20%;
+  }
 }
