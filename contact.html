@@ -33,36 +33,41 @@
         </div>
         <div class="connect-right-header">
             <p>We'd love to hear from you. Whether you have questions, ideas, or are ready to get started on your
-                interior design
+                snowboarding
                 journey, don't hesitate to reach out.</p>
         </div>
     </div>
-    <div class="contact-card-container" id="contact-card">
-        <div class="contact-card-inside-container">
-            <div class="name-container">
-                <div class="first-name">
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="fname" required>
+    <form action="https://formspree.io/f/xvoezdvk" method="POST">
+        <div class="contact-card-container" id="contact-card">
+            <div class="contact-card-inside-container">
+                <div class="name-container">
+                    <div class="first-name">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="last-name-container">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
                 </div>
-                <div class="last-name-container">
-                    <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" name="lname" required>
+                <div>
+                    <label for="email" id="email-name">Email *</label>
                 </div>
-            </div>
-            <div>
-                <label for="email" id="email-name">Email *</label>
-            </div>
-            <div class="email-container">
-                <input type="email" id="email" name="email">
-            </div>
-            <div>
-                <label for="message" id="message-name">Message *</label>
-            </div>
-            <div class="message-container">
-                <textarea id="message" name="message" rows="3" class="contact-card-text"></textarea>
+                <div class="email-container">
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message" id="message-name">Message *</label>
+                </div>
+                <div class="message-container">
+                    <textarea id="message" name="message" rows="3" class="contact-card-text"></textarea>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="contact-button">Send Away</button>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
     <div class="footer-left-container-contact">
         <div class="sub-menu-left-contact">
             <h4>Menu</h4>

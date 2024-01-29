@@ -1306,8 +1306,8 @@ textarea {
   width: 47%;
 }
 
-.contact-card-text {
-  margin-bottom: 90px;
+.contact-button {
+  margin-bottom: 3%;
 }
 
 .footer-left-container-contact {
@@ -3069,6 +3069,15 @@ textarea {
     justify-content: center;
     width: 93%;
     margin: auto;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-button {
+    margin-bottom: 10%;
   }
 
   .footer-left-container-contact {
